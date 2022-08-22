@@ -10,8 +10,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(168,87,81);
-    background: linear-gradient(90deg, rgba(168,87,81,1) 7%, rgba(125,46,104,1) 31%, rgba(125,46,104,1) 66%, rgba(168,87,81,1) 91%);
+    /* background: rgb(168,87,81);
+    background: linear-gradient(90deg, rgba(168,87,81,1) 7%, rgba(125,46,104,1) 31%, rgba(125,46,104,1) 66%, rgba(168,87,81,1) 91%); */
+    background-color: black;
 }
 .container .imagen-nodisp{
     display: none;
@@ -104,7 +105,7 @@ footer p {
     color: aliceblue;
 }
 footer p a{
-    color: #251351;
+    color: #7952db;
     text-decoration: none;
 
 }
