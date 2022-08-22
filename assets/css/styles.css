@@ -15,7 +15,6 @@
 }
 
 .container h1{
-    margin-bottom: 2rem;
     font-size: 3rem;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
@@ -102,7 +101,7 @@ footer{
     align-items: center;
     height: 6rem;
     text-align: center;
-    color: aliceblue;
+    color: red;
 }
 footer p {
     font-family: 'DM Sans', sans-serif;
