@@ -10,9 +10,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background: rgb(168,87,81);
-    background: linear-gradient(90deg, rgba(168,87,81,1) 7%, rgba(125,46,104,1) 31%, rgba(125,46,104,1) 66%, rgba(168,87,81,1) 91%); */
-    background-color: black;
+    background: rgb(43,4,97);
+    background: radial-gradient(circle, rgba(43,4,97,1) 0%, rgba(97,0,124,1) 92%);
 }
 .container .imagen-nodisp{
     display: none;
