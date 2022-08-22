@@ -114,7 +114,13 @@ footer p a{
     .mesa{
         display: none;
     }
+    .container{
+        background: white;
+    }
     .container .imagen-nodisp{
         display: block;
+    }
+    footer{
+        display: none;
     }
 }
