@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Juego-pares</title>
+</head>
+<body>
+    <div class="container">
+        <img src="../img/tj3hw-gtxyb.png" class="imagen-nodisp" alt="">
+        <div class="mesa">
+            <div class="cartas">
+                <!-- aqui van las cartas -->
+                <button class="carta carta0" onclick="destapar(0)" ></button>
+                <button class="carta carta1" onclick="destapar(1)" ></button>
+                <button class="carta carta2" onclick="destapar(2)" ></button>
+                <button class="carta carta3" onclick="destapar(3)" ></button>
+                <button class="carta carta4" onclick="destapar(4)" ></button>
+                <button class="carta carta5" onclick="destapar(5)" ></button>
+                <button class="carta carta6" onclick="destapar(6)" ></button>
+                <button class="carta carta7" onclick="destapar(7)" ></button>
+                <button class="carta carta8" onclick="destapar(8)" ></button>
+                <button class="carta carta9" onclick="destapar(9)" ></button>
+                <button class="carta carta10" onclick="destapar(10)" ></button>
+                <button class="carta carta11" onclick="destapar(11)" ></button>
+                <button class="carta carta12" onclick="destapar(12)" ></button>
+                <button class="carta carta13" onclick="destapar(13)" ></button>
+                <button class="carta carta14" onclick="destapar(14)" ></button>
+                <button class="carta carta15" onclick="destapar(15)" ></button>
+                <button class="carta carta16" onclick="destapar(16)" ></button>
+                <button class="carta carta17" onclick="destapar(17)" ></button>
+                <button class="carta carta18" onclick="destapar(18)" ></button>
+                <button class="carta carta19" onclick="destapar(19)" ></button>
+            </div> 
+            <div class="right">
+                <div class="cuenta-regresiva">
+                    
+                </div>
+                <div class="marcador" id="marcador">
+                    <p>Tiempo:      <small class="tiempo">60 seg</small></p>
+                    <p>Aciertos:    <small class="aciertos">0</small></p>
+                    <p>Movimientos: <small class="movimientos">0</small></p>
+                </div>
+                <div id="end-section">
+                    <button class="btn-iniciar" onclick="mostrarTarjetas()">Iniciar</button>
+                    <button class="btn-reinicio" onclick="mostrarTarjetas()"></button>
+                </div>
+            </div>
+        </div>
+        <footer><p>Programado con ❤️️ por <a href="https://www.linkedin.com/in/luisgonzalezmu/">Luis Gonzalez</a></p></footer>
+    </div>
+    <script src="../js/underscore-min.js"></script>
+    <script src="../js/juego-dev-version.js"></script>
+</body>
+</html>

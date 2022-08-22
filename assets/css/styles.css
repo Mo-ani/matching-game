@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(168,87,81);
+    background: linear-gradient(90deg, rgba(168,87,81,1) 7%, rgba(125,46,104,1) 31%, rgba(125,46,104,1) 66%, rgba(168,87,81,1) 91%);
+}
+.container .imagen-nodisp{
+    display: none;
+}
+.mesa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mesa .cartas{
+    min-width: 39.625rem;
+    max-width: 39.625rem;
+    height: 37.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.carta, .pares{
+    width: 6.25rem;
+    height: 8rem;
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 10%;
+    border: none;
+    font-size: 5rem;
+    font-family: 'DM Sans', sans-serif;
+    color: aliceblue;
+}
+.cuenta-regresiva{
+    height: 6.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3.5rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.marcador {
+    padding: 30px;
+    width: 18.75rem;
+    background-color: rgba(255, 255, 255, 0.205);
+    gap: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.7rem;
+    border-radius: 10%;
+    gap:20px;
+    color: aliceblue;
+}
+
+
+
+#end-section{
+    position: relative;
+    top: 2rem;
+    height: 6.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-iniciar,.btn-reinicio{ 
+    background-color: rgba(255, 255, 255, 0);
+    
+    border:none;
+    border-radius: 10%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 3rem;
+    color: aliceblue;
+    cursor: pointer;
+} 
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    text-align: center;
+    color: aliceblue;
+}
+footer p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+}
+footer p a{
+    color: #251351;
+    text-decoration: none;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+    .mesa{
+        display: none;
+    }
+    .container .imagen-nodisp{
+        display: block;
+    }
+}

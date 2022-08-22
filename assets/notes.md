@@ -1,0 +1,1 @@
++ Descubri que el event listener solo se puede agregar a un queryselector un elemento.
