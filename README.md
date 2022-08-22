@@ -1,7 +1,7 @@
-## Matchin game o juego de pares
+## Matching Game o juego de pares
 ---
 
-Hola, en esta ocasión quise probar nuevas herramientas, este proyecto empezó como un aprendizaje y poco a poco se fue convirtiendo en una experiencia completa, lo cree porque necesito trabajar en mi memoria, así que, que mejor forma de hacerlo que creando un juego. 
+Hola, en esta ocasión quise probar nuevas herramientas, este proyecto empezó como un aprendizaje y poco a poco se fue convirtiendo en una experiencia completa, lo cree porque necesito trabajar en mi memoria, así que, que mejor forma de hacerlo que creando un juego. 😁
 
 ![Juego](assets/img/match-game.PNG)
 
@@ -30,3 +30,4 @@ El juego termina una vez haya llegado a cero el contador o se hayan completado t
 Esta fue mi guía durante toda la creación del proyecto. 
 
 ![Algoritmo](assets/img/algoritmo.svg)
++ Este algoritmo es un recurso de [CodingTube](https://www.youtube.com/c/CodingTube)
