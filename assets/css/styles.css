@@ -14,13 +14,6 @@
     background: radial-gradient(circle, rgba(43,4,97,1) 0%, rgba(97,0,124,1) 92%);
 }
 
-.container h1{
-    margin-bottom: 2rem;
-    font-size: 3rem;
-    font-family: 'DM Sans', sans-serif;
-    text-align: center;
-    color: aliceblue;
-}
 .container .imagen-nodisp{
     display: none;
 }
@@ -54,9 +47,11 @@
     color: aliceblue;
 }
 .cuenta-regresiva{
+    margin-bottom: 2rem;
+    width: 300px;
     height: 6.5rem;
     font-family: 'DM Sans', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.6rem;
     color: aliceblue;
     text-align: center;
 }
